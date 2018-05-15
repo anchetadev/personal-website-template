@@ -236,14 +236,6 @@ em{
   background-size: cover;
 }
 
-/* .callout h2 {
-  font-size: 3.5rem;
-  font-weight: 300;
-  display: block;
-  max-width: 35rem;
-  background: rgba(0, 0, 0, 0.4);
-  color: #fff;
-} */
 .callout h1{
   background: rgba(0, 0, 0, 0.4);
   font-size: 4rem;
@@ -347,7 +339,7 @@ footer.footer .social-link:hover {
 #contact_info{
     list-style-type: none;
     vertical-align: middle;
-    font-size: 2rem !important;
+    font-size: 100% ;
 }
 
 a {
