@@ -3,4 +3,11 @@
     width: 400px;
     height: 400px;
     height: auto;
+    padding-top: 15px;
+}
+#skillsxp {
+    padding-top: 30px;
+}
+footer {
+    margin: auto;
 }
