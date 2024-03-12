@@ -1,0 +1,19 @@
+.world {
+    object-fit: cover;
+    width: 400px;
+    height: 400px;
+    height: auto;
+    padding-top: 15px;
+}
+#skillsxp {
+    padding-top: 30px;
+}
+footer {
+    padding-top: 75px;
+    margin: auto;
+    text-align: center;
+}
+footer > div > img {
+    width: 40px;
+    height: 40px;
+}
