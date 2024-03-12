@@ -9,5 +9,11 @@
     padding-top: 30px;
 }
 footer {
+    padding-top: 75px;
     margin: auto;
+    text-align: center;
+}
+footer > div > img {
+    width: 40px;
+    height: 40px;
 }
