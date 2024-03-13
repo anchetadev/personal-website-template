@@ -1,10 +1,60 @@
-.world {
-    object-fit: cover;
-    width: 400px;
-    height: 400px;
-    height: auto;
-    padding-top: 15px;
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+  }
+  header {
+    padding: 25px 0;
+  }
+.img-wrap {
+    width: 450px;
+    height: 450px;
 }
+#world-parent {
+    /* width: 32%; */
+    padding: 50px 25px;
+}
+.world {
+    width: 425px;
+    height: 425px;
+    object-fit: cover;
+    -webkit-filter: brightness(100%);
+	-moz-filter: brightness(100%);
+	-o-filter: brightness(100%);
+	-ms-filter: brightness(100%);
+	filter: brightness(100%);
+}
+.world:hover{
+    -webkit-filter: brightness(10%);
+	-moz-filter: brightness(10%);
+	-o-filter: brightness(10%);
+	-ms-filter: brightness(10%);
+	filter: brightness(10%);
+  transition: all 0.35s ease;
+}
+/* divider ------------ */
+/* .img-wrap {
+    position: relative;
+}
+.hidden-text {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(29, 106, 154, 0.72);
+    color: #fff;
+    visibility: hidden;
+    opacity: 0;
+  
+    /* transition effect. not necessary 
+    transition: opacity .2s, visibility .2s;
+  }
+  .img-wrap:hover .hidden-text {
+    visibility: visible;
+    opacity: 1;
+  } 
+*/
 #skillsxp {
     padding-top: 30px;
 }
