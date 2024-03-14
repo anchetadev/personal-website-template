@@ -3,6 +3,12 @@
     padding: 0;
     border: 0;
 }
+nav {
+    padding: 3vh 2vw !important;
+}
+.bg-dark{
+    background-color: black !important;
+}
 p, .lead {
 font-size: 1.5rem;
 }
@@ -43,8 +49,8 @@ justify-content: center;
     opacity: 1;
   }
 #world-parent {
-    min-width: 100%;
-    padding: 50px 25px;
+    width: 100%;
+    padding: 50px;
     height: 100%;
 }
 .world {
@@ -80,9 +86,11 @@ justify-content: center;
     opacity: 1;
   } 
 footer {
-    padding-top: 75px;
+    padding: 10vh 0 5vh 0;
     margin: auto;
     text-align: center;
+    background-color: black;
+    color: white;
 }
 footer > div > img {
     width: 40px;
@@ -95,5 +103,8 @@ footer > div > img {
     }
     .hidden-text > p {
         font-size: 0.8rem;
+    }
+    #world-parent {
+        padding: 25px;
     }
 }
