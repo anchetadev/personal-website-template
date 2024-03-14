@@ -17,6 +17,7 @@ justify-content: center;
 }
 .img-wrap {
     position: relative;
+    min-width: 325px;
     width: 50%;
     margin: auto;
     overflow: hidden;
@@ -42,7 +43,7 @@ justify-content: center;
     opacity: 1;
   }
 #world-parent {
-    width: 100%;
+    min-width: 100%;
     padding: 50px 25px;
     height: 100%;
 }
@@ -78,9 +79,6 @@ justify-content: center;
     left: 50%;
     opacity: 1;
   } 
-#skillsxp {
-    padding-top: 30px;
-}
 footer {
     padding-top: 75px;
     margin: auto;
@@ -89,4 +87,13 @@ footer {
 footer > div > img {
     width: 40px;
     height: 40px;
+}
+
+@media only screen and (max-width: 600px) {
+    p {
+        font-size: 1rem;
+    }
+    .hidden-text > p {
+        font-size: 0.8rem;
+    }
 }
